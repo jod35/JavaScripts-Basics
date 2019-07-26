@@ -1,0 +1,1 @@
+var shoplist=[['soda',34],['milk',4],['wine',1]]
