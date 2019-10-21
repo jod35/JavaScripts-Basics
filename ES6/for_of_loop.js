@@ -7,3 +7,8 @@ for(income of incomes){
 }
 console.log(total);
 //395000
+
+for(let income of incomes){
+incomes+=5000;
+}
+console.log(total);
