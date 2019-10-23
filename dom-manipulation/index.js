@@ -1,5 +1,5 @@
 //getAttribute
 
 const input =document.getElementById('input');
-const attr=input.getAttribute('name');
-alert(attr);
+const attr=input.setAttribute('placeholder',"Gonja");
+
