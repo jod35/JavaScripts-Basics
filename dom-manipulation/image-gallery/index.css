@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    color:rgb(104, 184, 24);
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color: black;
+    background-color:chartreuse;
+}
+.themes{
+    padding: 0;
+    
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 20px;
+}

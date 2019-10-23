@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    
+  <center>
+        <h1>Image Gallery</h1>
+       <div class="themes">
+           <a href="#" id="dark" onclick="changeToDark(this);">Dark Theme</a>
+           <a href="#" id="light" onclick="changeToLight(this);">Light Theme</a>
+       </div>
+        <ul>
+                <li><a href="images/LightWaves.png" onclick="showPic(this); return false;">Light Waves</a></li>
+                <li><a href="images/Road.jpg" onclick="showPic(this); return false;">Road</a></li>
+                <li><a href="images/SeaSunset.jpg" onclick="showPic(this); return false;">Sea Sunset</a></li>
+                <li><a href="images/Stripes.jpg" onclick="showPic(this); return false;">Stripes</a></li>
+                <li><a href="images/Dark_Ivy.jpg" onclick="showPic(this); return false;">Dark Ivy</a></li>
+                <li><a href="images/adwaita-morning.jpg" onclick="showPic(this); return false;">Colourful</a></li>
+                <li><a href="images/ColdWarm.jpg" onclick="showPic(this); return false;">Cold Warm</a></li>
+                
+            </ul>
+  </center>
+    <center><img src="images/Fabric.jpg" alt="fabric" id="placeholder" width="800"></center>
+    <script src="index.js"></script>
+</body>
+</html>
