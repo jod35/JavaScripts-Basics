@@ -15,9 +15,7 @@ class Counter extends Component {
           className="btn btn-secondary btn-sm"
         />
         <ul>
-          {this.state.tags.map(tag => (
-            <li key={tag}>{tag}</li>
-          ))}
+            {this.state.tags.map(tag=><li>{tag}</li>) }
         </ul>
       </div>
     );
