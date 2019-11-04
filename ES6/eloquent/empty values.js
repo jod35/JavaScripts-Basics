@@ -13,6 +13,10 @@ console.log("5" +1);
 console.log("five"*2);
 //returns Nan
 
+console.log(false ==0);
+//true
+
+
 
 
 
