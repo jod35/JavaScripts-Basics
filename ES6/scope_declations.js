@@ -6,5 +6,5 @@ const show_a=()=>{
 };
 
 show_a();
-// returns 3 since its inside the block's scope
+// returns 3 since its inside the block's scope`
 
