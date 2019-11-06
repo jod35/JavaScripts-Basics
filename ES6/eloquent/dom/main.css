@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+#div1{
+    border:1px solid green;
+}
+#div2{
+    border: 1px solid red;
+}
+#div3{
+    border: 1px solid orange;
+}
